@@ -2,7 +2,7 @@
 Models package - LLM, embeddings, and document processing
 """
 
-from .llm_config import config, LLMConfig, EmbeddingConfig, OptimizationConfig
+from .llm_config import config, LLMConfig, EmbeddingConfig
 from .llm_provider import (
     get_llm_provider, 
     generate_legal_answer, 
