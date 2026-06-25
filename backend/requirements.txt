@@ -15,10 +15,10 @@ bcrypt==4.1.1
 pymongo==4.6.0
 dnspython==2.8.0
 
-# LLM Providers (choose one or all)
-groq==0.10.0                    # Groq API (recommended for cloud - free tier)
+# LLM Providers 
+
 ollama==0.2.1                   # Ollama (recommended for local - free and offline)
-openai==1.14.0                  # OpenAI (for premium accuracy)
+
 
 # Embeddings
 sentence-transformers==3.0.1    # Light and efficient embeddings

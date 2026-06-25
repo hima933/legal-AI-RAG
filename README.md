@@ -117,7 +117,7 @@ FastAPI Backend
    |- MongoDB (users, queries, analyses, feedback, eval)
    |- FAISS index (vector chunks + metadata)
    |- Embedding model(s)
-   |- LLM provider(s): Ollama / Groq / OpenAI / HF
+   |- LLM provider: Ollama (phi3)
 ```
 
 ### Backend Modules
@@ -160,8 +160,7 @@ Auth:
 
 RAG + Upload:
 - `POST /query`
-- `POST /upload`
-- `GET /upload/health`
+
 
 Feedback + Evaluation:
 - `POST /feedback`
@@ -169,12 +168,9 @@ Feedback + Evaluation:
 - `GET /eval/summary`
 
 Model / System:
-- `GET /models/ollama`
-- `POST /models/select`
-- `GET /models/recommendations`
+
 - `GET /health`
-- `GET /index/status`
-- `POST /index/recover`
+
 
 ## Data Storage
 
